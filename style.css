@@ -15,6 +15,13 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
 body{
     background: #fffffa;
 } 
@@ -25,6 +32,7 @@ body{
     margin: auto;
     overflow: hidden;
 }
+
 
 header{
     background-color: #FF441F;
@@ -45,6 +53,11 @@ header h1{
 
 .logo{
     width: 250px;
+    float: left;
+}
+
+.colum1{
+    width: 50%;
     float: left;
 }
 
@@ -86,9 +99,11 @@ input:focus{
 textarea{
     margin-top: 20px;
     width: 100%;
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0,
     background: transparent,
-    color: #fff,
     padding: 20px;
     border-radius: 15px;
     border-style: none;
@@ -109,6 +124,48 @@ button{
     color: white;
 }
 
+section{
+ padding-left: 150px;
+ padding-right: 150px;
+}
+
 .center h2{
-    color:#FF441F
+    color:#c
+}
+
+.colum2{
+    width: 50%;
+    float: right;
+}
+
+table{
+    width: 100%;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 2px 2px 22px -10px rgba(255,68,31,1);
+    padding: 0;
+
+}
+
+.table_tittles{
+    background-color: #000000;
+    margin: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.table_tittles h3{
+    margin: 20px;
+    color: white;
+
+}
+
+th{
+    padding: 20px;
+}
+
+tr th a{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FF441F;
+    text-decoration: none;
 }
