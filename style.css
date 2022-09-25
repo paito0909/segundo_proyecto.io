@@ -102,15 +102,14 @@ textarea{
     padding: 20px;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0,
-    background: transparent,
-    padding: 20px;
+    box-shadow: 0;
+    padding-top: 20px;
     border-radius: 15px;
     border-style: none;
     box-shadow: 2px 2px 22px -10px rgba(255,68,31,1);
 }
 
-button{
+#create {
     background-color: #FF441F;
     margin-top: 40px;
     margin-bottom: 70px;
@@ -130,7 +129,7 @@ section{
 }
 
 .center h2{
-    color:#c
+    color: #FF441F;
 }
 
 .colum2{
@@ -147,23 +146,29 @@ table{
 
 }
 
-.table_tittles{
-    background-color: #000000;
+.head_table {
+    background: rgba(255, 68, 31, 0.479);
     margin: 0;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
 }
 
-.table_tittles h3{
-    margin: 20px;
+.head_table h3{
+    font-size: 1.5em;
+    font-weight: bold;
     color: white;
-
 }
 
 th{
     padding: 20px;
 }
 
-tr th a{
+#boton_crear{
+    background: rgba(255, 68, 31, 0.479);
+    margin: 0;
+    border-radius: 15px;   
+}
+
+tr td a{
     font-size: 1.5em;
     font-weight: bold;
     color: #FF441F;
